@@ -24,6 +24,12 @@ export default async function TranslationsPage() {
       msgid: "이메일 주소",
       msgstr: "Dirección de correo electrónico",
       status: "machine_translated"
+    },
+    {
+      id: "3",
+      msgid: "내용",
+      msgstr: "Dirección de correo electrónico",
+      status: "machine_translated"
     }
   ];
 

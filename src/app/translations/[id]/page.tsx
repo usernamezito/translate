@@ -18,8 +18,8 @@ export default async function TranslationEditPage({
   const translation: Translation = {
     id: params.id,
     msgid: "계정 로그인",
-    msgstr: "Iniciar sesión en la cuenta",
-    status: "machine_translated",
+    msgstr: "login hahahahaha",
+    status: "human_reviewed",
   };
 
   return (
