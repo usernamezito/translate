@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/translations/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/translations/page.css",
+      "static/chunks/app/translations/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/translations/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/translations/[id]/page.css",
+      "static/chunks/app/translations/[id]/page.js"
+    ]
+  }
+}
