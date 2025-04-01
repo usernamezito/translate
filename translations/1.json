@@ -1,5 +1,10 @@
 {
-  "id": "1",
-  "msgstr": "login hahahahaha",
-  "status": "human_reviewed"
+  "translations": [
+    {
+      "id": "1",
+      "msgid": "한글 원본",
+      "msgstr": "pull requests22ㅈㄷㄹ",
+      "status": "human_reviewed"
+    }
+  ]
 }
