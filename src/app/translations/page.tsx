@@ -10,28 +10,16 @@ interface Translation {
   status: string;
 }
 
+async function getTranslations(): Promise<Translation[]> {
+  const res = await fetch('http://localhost:3000/api/translations', { cache: 'no-store' });
+  if (!res.ok) {
+    throw new Error('Failed to fetch translations');
+  }
+  return res.json();
+}
+
 export default async function TranslationsPage() {
-  // 실제로는 API에서 데이터를 가져와야 합니다
-  const translations: Translation[] = [
-    {
-      id: "1",
-      msgid: "계정 로그인",
-      msgstr: "Iniciar sesión en la cuenta",
-      status: "machine_translated"
-    },
-    {
-      id: "2",
-      msgid: "이메일 주소",
-      msgstr: "Dirección de correo electrónico",
-      status: "machine_translated"
-    },
-    {
-      id: "3",
-      msgid: "내용",
-      msgstr: "Dirección de correo electrónico",
-      status: "machine_translated"
-    }
-  ];
+  const translations = await getTranslations();
 
   return (
     <div className="container mx-auto px-4 py-8">
