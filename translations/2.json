@@ -1,5 +1,10 @@
 {
-  "id": "2",
-  "msgstr": "email email ahhaahah",
-  "status": "human_reviewed"
+  "translations": [
+    {
+      "id": "2",
+      "msgid": "한글",
+      "msgstr": "이건 기계번역 아니지롱",
+      "status": "human_reviewed"
+    }
+  ]
 }
